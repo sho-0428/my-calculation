@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Calculation</title>
+    <title>計算処理</title>
     <script>
         function calculate() {
             var num1 = parseFloat(document.getElementById("num1").value);
@@ -15,9 +15,10 @@
 </head>
 <body>
     <h1>Calculator</h1>
-    <input type="number" id="num1" placeholder="Enter first number">
-    <input type="number" id="num2" placeholder="Enter second number">
-    <button onclick="calculate()">Calculate</button>
+    <p>二つの数値を足して10倍した結果を表示します。</p>
+    <input type="number" id="num1" placeholder="一つ目の数値を入力してください">
+    <input type="number" id="num2" placeholder="二つ目の数値を入力してください">
+    <button onclick="calculate()">計算結果表示</button>
     <p id="result"></p>
 </body>
 </html>
